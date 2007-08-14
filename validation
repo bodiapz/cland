@@ -1,0 +1,34 @@
+Validation on Register
+------------------------
+
+-> first_name 
+	- required, 
+	- minlength -> 2,
+	- maxlength -> 100
+
+-> last_name
+	- maxlength -> 100
+
+-> email
+	- required,
+	- unique,
+	- maxlength -> 200,
+
+-> password
+	- required,
+	- minlength -> 8,
+	- maxlength -> 255
+
+-> security_pin
+	- required,
+	- numerical,
+	- minlength -> 4,
+
+-> security_question
+	- required,
+	- maxlength -> 200,
+
+-> security_answer
+	- required,
+	- maxlength -> 100,
+	- minlength -> 2
